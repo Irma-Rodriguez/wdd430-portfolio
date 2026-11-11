@@ -1,4 +1,3 @@
-
 'use client';
 
 import { useEffect, useState } from 'react';
@@ -32,7 +31,7 @@ export default function ProjectsFetcher({
 
                 const data: Project[] = await response.json();
                 setProjects(data);
-            } catch (error) {
+            } catch {
                 setError('Could not load projects');
             } finally {
                 setLoading(false);

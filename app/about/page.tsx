@@ -7,14 +7,14 @@ export default function About() {
             <section className="mb-10">
                 <h1 className="text-3xl font-bold mb-4 text-gray-900">About Me</h1>
                 <p className="text-lg text-gray-700 leading-relaxed">
-                    I'm a web development student who enjoys learning and creating projects.
-                    I'm currently developing my skills in HTML, CSS, JavaScript, React, and Next.js.
+                    I am a web development student who enjoys learning and creating projects.
+                    I am currently developing my skills in HTML, CSS, JavaScript, React, and Next.js.
                     Every project is an opportunity to learn something new and improve my programming skills.
                 </p>
             </section>
 
             <SkillCard
-                title="Technologies I'm Learning"
+                title="Technologies I am Learning"
                 skills={[
                     'HTML',
                     'CSS',
